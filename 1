@@ -1,0 +1,27 @@
+public class Pracownik {
+ 	String imie;
+ 	String nazwisko;
+ 	String stanowisko;
+  int wiek;
+ }
+ 
+ public class Firma{
+ 	public static void main(String args[]){
+ 		Pracownik pracownik1 = new Pracownik();
+ 		Pracownik pracownik2 = new Pracownik();
+ 
+ 		pracownik1.imie = "Marek";
+ 		pracownik1.nazwisko = "Bocian";
+ 		pracownik1.stanowisko = "kasjer"
+    pracownik1.wiek = 22;
+ 
+ 		pracownik2.imie = "Igor ";
+ 		pracownik2.nazwisko = "Dąb";
+    pracownik2.stanowisko = "magazynier"
+ 		pracownik2.wiek = 65;
+ 
+ 		System.out.println("Pracownicy firmy to:");
+ 		System.out.println(pracownik1.imie+" "+pracownik1.nazwisko+" "+ pracownik1.stanowisko", "+pracownik1.wiek+" lat");
+ 		System.out.println(pracownik2.imie+" "+pracownik2.nazwisko+" "+ pracownik2.stanowisko", "+pracownik2.wiek+" lat");
+ 	}
+ }
